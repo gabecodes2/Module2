@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Gabriel's Portfolio</div>
+        <nav>
+            <button class="nav-button" onclick="scrollToSection('about-me')">About Me</button>
+            <button class="nav-button" onclick="scrollToSection('my-work')">My Work</button>
+            <button class="nav-button" onclick="scrollToSection('contact')">Contact</button>
+        </nav>
+    </header>
+
+    <section id="about-me" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Tech-savvy amateur coder who loves to be challanged.</p>
+        </div>
+    </section>
+
+    <section id="my-work" class="section">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <img src="C:\csprojects\Module2\Screenshot 2023-11-18 122602.png" alt="Project 1">
+                    <div class="overlay">SipSeeker! </div>
+                </div>
+                <div class="work-item">
+                    <img src="C:\csprojects\Module2\Screenshot 2023-11-18 122955.png" alt="Project 2">
+                    <div class="overlay">Quiz!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Phone : (914) 588-0618 Email : gabrielcastanheira2002@outlook.com</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
